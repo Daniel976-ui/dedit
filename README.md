@@ -13,7 +13,7 @@ dedit filename text
 
 ## Instalation 
 On debian distros open the .deb file provided 
-On all other distros put the dedit file in the /bin directory or just run the command below 
+On all other distros run the command below 
 ```bash
 sudo install -m 755 ~/Downloads/dedit /usr/local/bin/dedit
 ```
