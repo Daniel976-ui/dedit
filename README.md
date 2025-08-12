@@ -7,7 +7,7 @@ It lets you quickly write text into a file from the command line.
 - Appends text to a file in one command
 - Creates the file if it doesn't exist
 - Works with multiple words without quotes
-
+- Piping through other commands 
 ## Usage
 dedit filename text
 
