@@ -10,3 +10,8 @@ It lets you quickly write text into a file from the command line.
 
 ## Usage
 dedit filename text
+
+## Instalation 
+On debian distros open the .deb file provided 
+On all other distros put the dedit file in the /bin directory or just run the command below 
+sudo install -m 755 ~/Downloads/dedit /usr/local/bin/dedit
