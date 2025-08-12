@@ -9,4 +9,4 @@ It lets you quickly write text into a file from the command line.
 - Works with multiple words without quotes
 
 ## Usage
-dedit <filename> <text>
+dedit filename text
