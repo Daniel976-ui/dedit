@@ -1,4 +1,13 @@
-file="$1" 
+file="$1"
 shift
-echo "$*" >> $file
-echo "$* was written to $file"
+
+if [ ! -t 0 ]; then
+    # If there’s piped input, append it to the file
+    cat >> "$file"
+else
+    echo "$*" >> "$file"
+fi
+
+echo $* was written to $file
+
+
